@@ -1,0 +1,30 @@
+Synchronous programming
+-Task execute one after another.
+-Each task wait for previous task to finish.
+-blocking behaviour.
+
+Execution: Sequential behavior
+ start
+  |
+task1() ->time=4sec
+  |
+task2() ->time=4sec
+  |
+task3()
+  |
+ end
+
+Asynchrous
+-Task can run without blocking the main thread.
+-while waiting for one task other task can execute.
+-Improve responsivness.
+
+keyword used to declare unsynchrous method
+allow to use await inside the method.
+async myMethod()
+
+await :
+-used to wait for task to complete.
+-Does not block the thread.
+Ex :- await Task.Run(()=>{})
+

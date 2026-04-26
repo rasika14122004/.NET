@@ -1,0 +1,111 @@
+Solid Principle :- 
+Object Oriented design principle.
+Use :- to maintain your clean, and reusable code.
+
+S :- Single responsibility principle
+O :- open or close principle
+L :- Liskov substitution principle
+I :- Interface Segregation Principle
+D :- Dependency Inversion principle
+
+### S :- Single responsibility principle :-
+
+//Bad example... 
+class student{
+    	public void save student(){
+		//
+	}
+	
+	public void printStudent(){
+		//
+	}
+}
+
+//Good example...
+class student{
+    	public string Name{
+		get, set
+	}
+}
+
+class studentRepository{
+    	public void save student(Student student){
+		//
+	}
+
+one class should do only one job at a time.
+
+### O:-Open or Close principle
+you should add new feature without changing for existing code. 
+class should open for extension for closed for modification.
+class Discount {
+  getDiscount() {
+    return 0;
+  }
+}
+
+class StudentDiscount extends Discount {
+  getDiscount() {
+    return 20;
+  }
+}
+
+class RegularDiscount extends Discount {
+  getDiscount() {
+    return 10;
+  }
+}
+
+ex :- 
+
+### L :- lisco substitution principle.
+child class should replace parent class without breaking program.
+interface IsBird{}
+interface IsFlyingBird{
+	void fly()
+}
+class Sparrow : IslyingBird{
+	public void fly(){
+		print("Sparrow Flying");
+	}
+}
+
+### I :- Interface Segregation Principle
+
+Don’t force classes to implement methods they don’t use
+
+class Printer {
+  print() {
+    console.log("Printing");
+  }
+}
+
+class Scanner {
+  scan() {
+    console.log("Scanning");
+  }
+}
+
+
+### D :- Dependency Inversion principle.
+
+High-level modules should depend on abstractions
+
+class Database {
+  connect() {}
+}
+
+class MySQLDatabase extends Database {
+  connect() {
+    console.log("MySQL connected");
+  }
+}
+
+class App {
+  constructor(database) {
+    this.db = database;
+  }
+}
+
+const app = new App(new MySQLDatabase());
+

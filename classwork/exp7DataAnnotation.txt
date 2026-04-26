@@ -1,0 +1,2 @@
+Data Anotations are attributes used in model class to define validation rule.
+properties : [ required ], [ stringlen(50) ], [ emailAddress ], [ Range(18,60) ]

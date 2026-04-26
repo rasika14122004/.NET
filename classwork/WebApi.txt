@@ -1,0 +1,92 @@
+WebApi: It is a communication between frontend and backend
+Ex: Swiggy, Instagram
+
+Rest Api: Uses http methods, works with json,
+HTTP methods: 
+GET: Fetch data
+POST: create data
+PUT: update data
+DELETE:remove/delete data
+
+Activity:
+1.What is web api and rest api deep study with examples.
+	* WEB API
+	A Web API (Application Programming Interface) is a set of protocols or rules that describes the communication 
+	flow between software, typically acting as a bridge between a web browser and a server.
+	* REST API 
+	REST (Representational State Transfer) is an architectural style for building web services that use standard HTTP 
+	methods to perform CRUD operations (Create, Read, Update, Delete). All REST APIs are Web APIs, but not all Web APIs follow REST principles.
+
+2.learn HTTP methods with a proper examples.
+	The following methods are widely used for performing CRUD (Create, Read, Update, Delete) operations:
+
+	**GET (Read): Retrieves data from a server without modifying anything.
+	Example: Typing https://google.com in a browser sends a GET request to fetch search results.
+	
+	**POST (Create): Sends data to the server to create a new resource.
+	Example: Submitting a sign-up form on a registration page sends user details in the request body to create a new account.
+
+	**PUT (Update/Replace): Replaces an existing resource entirely or creates it if it doesn't exist.
+	Example: Updating a user's entire profile (name, email, and bio) by sending the full updated object to PUT /users/123.
+
+	**PATCH (Partial Update): Modifies only specific fields of a resource.
+	Example: Changing only a user's password without sending their name or email to PATCH /users/123.
+
+	**DELETE (Delete): Removes a specified resource from the server.
+	Example: Clicking "Delete Account" sends a DELETE /users/123 request to remove that user from the database. 
+
+
+3.Steps for creating folder structure of EXP 09
+	-dotnet add package swashbucklt.aspnetcore
+
+
+Swagger : used to api testing for only frontend apis
+to open swagger ui: http://localhost:5055/swagger/index.html
+command to download swagger: dotnet add package Swashbuckle.AspNetCore
+How to use swagger: firstly where the dotnet code runs there use /swagger and enter
+1.click on get or any other method to run
+2.click on try it out
+3.click execute
+
+Activities:
+1.which http methods we are using
+	These five methods are the backbone of modern web development and RESTful APIs. 
+	GET: Used to retrieve or read data from a server (e.g., loading a webpage or fetching a user list). 
+	It is "safe" and "idempotent," meaning it does not change the server's state.
+	POST: Used to create new resources on the server (e.g., submitting a signup form or adding a new blog post).
+	PUT: Used to update or replace an entire existing resource with new data.
+	PATCH: Used for partial updates to a resource, modifying only specific fields rather than replacing the whole thing.
+	DELETE: Used to remove a specific resource from the server.
+
+2.what is our endpoint
+	An endpoint is any physical or virtual device that connects to and exchanges information with a computer network. 
+	In a business context, these are the "digital doorways" that employees use to access corporate resources.
+
+3.what response we get
+	Template Creation Notification: You will see a success message indicating the project was generated from a template.
+	File Generation: Key files are generated, such as the [ProjectName].csproj (project file), Program.cs (entry point), 
+	and optionally appsettings.json.
+	Restore Action: A dotnet restore operation is implicitly performed, allowing the CLI to download needed NuGet dependencies.
+	Follow-up Commands: The response often suggests running dotnet restore (if not done) or dotnet run.
+
+4.Understand the flow of web api with swagger
+	**Design/Definition (OAS): The process starts by creating an OpenAPI definition file (JSON or YAML), which serves as 
+	a contract defining endpoints (/users), methods (GET, POST), request parameters, and response structures.
+	**Generation/Automation: Tools like Swagger Editor or code annotations (e.g., in ASP.NET Core or Spring Boot) 
+	automatically turn code into the interactive Swagger UI.
+	**Visualization & Interaction (Swagger UI): The UI displays all API resources, allowing users to understand capabilities 
+	and interact with them in real-time.
+	**Testing & Validation: Using the "Try it out" feature, users can execute API calls directly from the browser, 
+	testing different inputs and validating responses.
+	**Client Generation: Swagger Codegen can be used to generate client SDKs in various languages based on the definition file, 
+	automating the consumption of the API. 
+
+
+Web API: communication 
+controller: handler/brain
+http methods: actions
+swagger: testing tool
+
+while post new data in the json format, but when click on get without db it shows the updates records,
+how it is possible?
+

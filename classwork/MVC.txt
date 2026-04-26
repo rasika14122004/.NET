@@ -1,0 +1,57 @@
+mvc is a design pattern 
+used to develop scalable web application
+It Sepatare application into 3 different responsibilities
+1.model
+2.view
+3.controller
+
+1.Mode => Data Layer.dotnet new mvc -n crmProjectMVC
+-Model represents data and business logic.
+
+2.View => UI Layer.
+-View represents user interface.
+-what user see on browser.
+
+3.Controller => Brain of MVC.
+-Controllers handles user request and application flow.
+-Controller conects model and view.
+
+
+Activities
+-Why MVC used in companies.
+	Companies use the Model-View-Controller (MVC) architectural pattern to improve code organization, maintainability,
+	and scalability. By separating applications into three distinct layers—Model (data), View (UI), and 
+	Controller (logic)—companies facilitate parallel development, where developers can work on different components 
+	simultaneously without interference, speeding up project timelines. 
+-What is MVC folder structure.
+	A standard Model-View-Controller (MVC) folder structure separates application code into three main folders—Models (data), 
+	Views (UI), and Controllers (logic)—to ensure modularity. Key directories include /Controllers for request handling,
+	/Views for templating, and /Models for data structures, typically complemented by /Content or /Public for static assets (CSS/JS).
+-What is Routing in MVC.
+	Routing in MVC is a pattern-matching system that maps incoming browser requests to specific controller action methods. 
+	Instead of requiring every URL to correspond to a physical file (like an .aspx or .php file), routing allows you to define 
+	descriptive, SEO-friendly URL patterns that the application logic handles internally.
+
+-What is differnce between MVC and Razor pages.
+Key Differences at a Glance
+Feature 		Razor Pages					ASP.NET Core MVC
+Architecture		Page-centric (similar to MVVM)			Controller-centric (Standard MVC)
+
+File Structure		View (.cshtml) and code-behind 			Separate folders for Models, Views, and Controllers
+			(.cshtml.cs) co-located	
+			
+			
+Routing			File-based (matches folder structure)		Pattern-based (typically /{controller}/{action})
+
+Security		Anti-forgery tokens enabled by default		Requires manual opt-in
+
+Best For		Page-focused UI, forms, and simpler apps	Complex APIs, large modular apps, and fine-grained control
+
+-When we click on customer menu what happens? (Workflow)
+1. User Interaction (View)
+2. Request Routing (Framework)
+3. Controller Action Execution (Controller)
+4. Data Interaction (Model)
+5. View Selection and Rendering (View)
+6. Response (Final Output)
+

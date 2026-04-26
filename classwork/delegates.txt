@@ -1,0 +1,38 @@
+//delegates is a reference to a method 
+//it works like function, pointer in cpp
+//for static methods delegates encapsulates method only
+//but for instance method it encapsulates method and instant 
+//can call directly
+
+    class                       delegates
+public class classname();     public delegate void testDelegate();
+
+
+delegates in c sharp allows you to reference a method like a variable creating more fexible and dynamic program.
+
+there are two types of delegates
+1.single cast delegate => we can call one delegate to on function.
+2.multi cast delegate => we can call multi delegate to multiple functions
+
+public void function1(){
+    Consol.writeline("hello)
+}
+
+use : for the event handling programs delegates are mostly used.
+
+#IMP
+Event Handling 
+An event is a notification mechanism.
+Button does not no who will handle the key.
+Button just raise an event jo subscriber ne raise kela ahe.
+Def : Events allows objects to communicate with each other by sending signals when something intersting occurs.
+
+
+Difference : 
+1.cannot be called outside the class
+2.more safety
+3.notification mechanism
+
+Syntax: 
+event demo Event myEvent();//Wrong Syntax
+event demo delegate myEvent;//correct Syntax
