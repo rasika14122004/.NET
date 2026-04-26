@@ -1,0 +1,41 @@
+Entity framework is a dotnet tool that help us work with database using c# code instead of sql query.
+Need : less code.
+fast development.
+easy to maintain.
+
+Entity framework vs Entity framework Core.
+
+EF is older version and EFC is advanced version.
+EF heavy vs EFC lightweight
+EF windows vs EFC crossPlatforms
+
+what is ORM : Objec Relational Mapping
+It maps c# classes to db table and objec to Row.
+eg: public class student{
+    public String name = {get, set};
+    public Int id = {get, set};
+}
+
+There are three types of coding approach : 
+1. CodeFirst Approach : Start with coding, Create c# classes , db is created automatically.
+2. DatabaseFirst Approach : db already exist, generate c# classes from db.
+3. ModelFirst Approach : Design model first then db created.
+
+What is db context : (For Connectivity)
+db context is the main class, that connects your application to the db.
+public Dbset<Student>Students{get,set};
+db conetext is a bridge between the application and the db.
+
+*Migration:
+Migration is used to create(update) or db structure automatically.
+eg: public String emailId = {get, set};
+it updated this emailId to the db column.
+
+What is CRUD Operation :
+Create -> Insert
+Read -> Fetch
+Update -> Modify
+Delete -> Remove
+
+workflow :
+model(student) -> DbContext -> migration

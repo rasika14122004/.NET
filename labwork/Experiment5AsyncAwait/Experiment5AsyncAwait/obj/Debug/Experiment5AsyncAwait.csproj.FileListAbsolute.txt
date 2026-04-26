@@ -1,0 +1,7 @@
+E:\ADN\labwork\Experiment5AsyncAwait\Experiment5AsyncAwait\bin\Debug\Experiment5AsyncAwait.exe.config
+E:\ADN\labwork\Experiment5AsyncAwait\Experiment5AsyncAwait\bin\Debug\Experiment5AsyncAwait.exe
+E:\ADN\labwork\Experiment5AsyncAwait\Experiment5AsyncAwait\bin\Debug\Experiment5AsyncAwait.pdb
+E:\ADN\labwork\Experiment5AsyncAwait\Experiment5AsyncAwait\obj\Debug\Experiment5AsyncAwait.csproj.AssemblyReference.cache
+E:\ADN\labwork\Experiment5AsyncAwait\Experiment5AsyncAwait\obj\Debug\Experiment5AsyncAwait.csproj.CoreCompileInputs.cache
+E:\ADN\labwork\Experiment5AsyncAwait\Experiment5AsyncAwait\obj\Debug\Experiment5AsyncAwait.exe
+E:\ADN\labwork\Experiment5AsyncAwait\Experiment5AsyncAwait\obj\Debug\Experiment5AsyncAwait.pdb

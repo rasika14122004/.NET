@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ADN\\labwork\\Experiment2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6518D84B-DC0C-43C3-A5A4-9AE11B2E9372}|Experiment2\\Experiment2.csproj|e:\\adn\\labwork\\experiment2\\experiment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6518D84B-DC0C-43C3-A5A4-9AE11B2E9372}|Experiment2\\Experiment2.csproj|solutionrelative:experiment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ADN\\labwork\\Experiment2\\Experiment2\\Program.cs",
+              "RelativeDocumentMoniker": "Experiment2\\Program.cs",
+              "ToolTip": "E:\\ADN\\labwork\\Experiment2\\Experiment2\\Program.cs*",
+              "RelativeToolTip": "Experiment2\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T13:30:57.285Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

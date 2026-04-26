@@ -1,0 +1,7 @@
+E:\ADN\labwork\Experiment3\Experiment3\bin\Debug\Experiment3.exe.config
+E:\ADN\labwork\Experiment3\Experiment3\bin\Debug\Experiment3.exe
+E:\ADN\labwork\Experiment3\Experiment3\bin\Debug\Experiment3.pdb
+E:\ADN\labwork\Experiment3\Experiment3\obj\Debug\Experiment3.csproj.AssemblyReference.cache
+E:\ADN\labwork\Experiment3\Experiment3\obj\Debug\Experiment3.csproj.CoreCompileInputs.cache
+E:\ADN\labwork\Experiment3\Experiment3\obj\Debug\Experiment3.exe
+E:\ADN\labwork\Experiment3\Experiment3\obj\Debug\Experiment3.pdb
